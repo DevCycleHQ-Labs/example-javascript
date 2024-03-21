@@ -30,8 +30,8 @@ const updateToggleBotSection = (devcycleClient) => {
     const togglebot = document.getElementById("togglebot");
     togglebot.src =
         spinSpeed === 'surprise' ? "./images/unicorn.svg" :
-            shouldWink ? "./images/togglebot-wink.png" :
-                "./images/togglebot.png";
+            shouldWink ? "./images/togglebot-wink.svg" :
+                "./images/togglebot.svg";
 
     // Animate togglebot using spinSpeed variable
     togglebot.classList.remove("spin-slow", "spin-fast", "spin-off-axis", "spin-off");
